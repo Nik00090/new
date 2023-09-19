@@ -1,0 +1,518 @@
+/*body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  color: 000;
+  font-size: 16px;
+}*/
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: url('../images/gobi.jpg') center center no-repeat  fixed;
+    padding-top: 57px;/*отступ вниз*/
+    background-size: cover;
+    width: 1500px;
+  height: 400px;
+  color: #fff;
+  
+  }
+
+h1,h2,h3,h4,h5,h6{
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+ul,li{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;/*пзиционирование по центру*/
+}
+
+
+.header{
+  background: url('../images/gobi.jpg') center center no-repeat  fixed;
+  padding-top: 57px;/*отступ вниз*/
+  background-size: cover;
+  width: 1600px;
+height: 900px;
+}
+
+
+header a{
+  color: #FFFFFF;
+}
+
+.logo{
+  margin-right: 69px;
+}
+
+
+.menu{
+  display: flex;/*выравниваю меню в одну линию*/
+}
+
+.menu li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px ;
+  letter-spacing: 0.1em;
+}
+
+.menu li{
+  margin-right:40px ; /*рассстояние между словами сдвиг в право*/
+}
+
+.tel{
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+}
+
+.nav {/*меню*/
+  display: flex;/*выравнивание меню*/
+  align-items: center;
+}
+
+.offer {
+  text-transform: uppercase;
+  margin-top: 216px;
+  color: #fff;
+}
+
+.offer p{
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+.offer h1{
+  font-size: 100px;
+  margin-bottom: 19px;
+  margin-top: -9px;
+  letter-spacing: 0.02em;
+}
+
+/*кнопка*/
+.btn{
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238px;
+  text-decoration: none;
+  transition: all 0.5s ease;/*означает что анимируются все свойства будут изменятся в течении 0.5 секунд с типом анимации ease*/
+}
+
+a{
+  text-decoration: none;
+}
+
+/*наведение мышью (hover наведение)*/
+.btn:hover{
+background: #fff;
+color: black;
+}
+
+
+
+
+/* второй блок*/
+
+.description{
+  display: flex;
+  justify-content: space-between;
+}
+
+.description p{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.62em;
+}
+
+.desc-left, .desc-right{
+  width: 567px;
+}
+
+.gallery{
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section{
+  padding-top: 113px;
+}
+
+h2{
+  font-size: 50px;
+  margin-bottom: 58px;
+  margin-top: -100px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 28px;
+
+}
+
+.footer-text{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  padding: 114px 0;
+}
+
+.footer-text p{
+  margin-right: 67px;
+}
+
+
+
+
+
+/*Блог с машинами car*/
+
+
+
+.choose{
+ padding: 100px 0 150px;
+}
+
+.section-title{
+padding-left: 500px;
+padding-right: 500px;
+}
+
+
+
+
+
+
+
+
+.tabs__content-item{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 40px;
+}
+
+.card{
+  text-align: center;
+}
+
+
+
+.card__content{
+  padding: 0 5px;
+  border: 1px solid #0066FF;
+  border-top: 0;
+}
+
+.card__img{
+ display: block;
+ padding: 0 18px;
+ border: 1px solid #0066FF;
+ margin-top: 0px;
+
+ 
+}
+
+.card__title{
+padding-top: 20px;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.card__text{
+  margin-bottom: 20px;
+}
+
+.card__price{
+margin-bottom: 20px;
+margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card__link{
+  display: block;
+  color: #0066FF;
+  border: 1px solid #0066FF;
+  border-top: 0;
+  
+}
+
+
+
+
+
+img{
+  max-width: 270px;
+  max-height: 170px;
+}
+
+
+
+
+
+/* третий блок карточки товаров авто*/
+
+body{
+  background-color: #fff;
+
+}
+
+.cardd{
+background-color: aqua;
+width: 200px;
+border-radius: 50px;
+padding: 20px;
+box-shadow: 10px 10px 40px #0066FF;
+margin: auto;
+margin-top: 100px;
+
+}
+
+.cardd-title{
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cardd-text{
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.cardd-img{
+  border-radius: 5px;
+  margin-left: -10px;
+}
+
+
+.btnn-keeper{
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+.btnn{
+  background-color: #0066FF;
+  padding: 7px 12px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.5s linear;
+}
+
+
+.btnn:hover{
+  background-color: rgb(255, 255, 255);
+  color: #0066FF;
+}
+
+/*форма арендовать авто*/
+
+
+
+
+
+.container22{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.form{
+  width: 768px;
+  padding: 80px 60px 6px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3.4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 100px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+h1{
+  font-size: 36px;
+ /*text-align: center;*/
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.data__block{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 35px;
+  margin-top: 55px;
+}
+
+input{
+  background: transparent;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+input::placeholder{
+  font-size: 24px;
+  color: gray;
+}
+
+input:focus::placeholder{
+  color: darkslategray;
+}
+
+input:focus{
+  outline: none;
+}
+
+.name{
+  width: 100%;
+}
+
+.mail{
+  width: 290px;
+}
+
+.phone{
+  width: 290px;
+}
+
+.text__area{
+  margin-top: 65px;
+  border: 1px solid #fff;
+  border-radius: 13px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message{
+  font-size: 24px;
+  color: gray;
+}
+
+textarea{
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+}
+
+textarea:focus::placeholder{
+  color: darkslategray;
+}
+
+textarea:focus{
+outline: none;
+}
+
+.send{
+  width: 100px;
+  text-align: right;
+}
+
+button{
+  padding: 15px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: aqua;
+  border-radius: 5px;
+  border: 1px solid aqua;
+  background: rgba(0, 0, 0, 0.3);
+  margin-top: 40px;
+}
+
+button:hover{
+  background: #0000008a;
+}
+
+button:active{
+  transform: translateY(2px);
+}
+
+
+
+/* ---------------------------- ОФОРМЛЕНИЕ ФУТЕРА ------------------------------ */
+
+footer ul {
+  column-count: 3; /* делим содержимое на 3 колонки */
+  column-gap: 20px; /* расстояние между колонками */
+  max-width: 1000px;
+  margin: 20px 350px;
+  padding: 0 auto;
+}
+
+footer ul li {
+  font-size: 0.9em;
+  padding: 10px;
+}
+
+footer ul li::before { /* создадим псевдо-элементы, которые будут иконками пунктов */
+  font-family: 'FontAwesome'; /* ЭТО СПЕЦИАЛЬНЫЙ ИКОНОЧНЫЙ ШРИФТ, подключен вверху, он содержит начертание не букв, а ИКОНОК, которые появляются,
+  когда вводишь определённый UTF-символ */
+  margin-right: 5px;
+}
+
+
+
+footer div,
+footer ul,
+footer ul a {color: #effeff;}
+
+footer div {
+  background: rgba(47,61,62,.5);
+  font-weight: bold;
+  margin: 30px auto 0 auto;
+  padding: 5px 0;
+  text-align: center;
+}
+
+
+
+
+
+
+/*оформление супермена*/
+
+
+.human {
+  position: absolute;
+  bottom: -100px; /* Начальное положение человечка за пределами видимой области */
+  left: 50%;
+  transform: translateX(-50%);
+  animation: slideIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  to {
+      bottom: 20px; /* Конечное положение человечка */
+  }
+}
+
